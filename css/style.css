@@ -1,0 +1,111 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  width: 75%;
+}
+
+header {
+  font-family: 'Poppins',
+    sans-serif;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: #EDFBFE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Poppins',
+    sans-serif;
+  font-weight: 600;
+}
+
+main {
+  font-family: 'Open Sans',
+    sans-serif;
+}
+
+.logo {
+  float: left;
+  margin: 2rem 2.8rem;
+}
+
+.illustration-mockup {
+  margin: 1.5rem 2.8rem 2.8rem 1.31rem;
+  width: 49%;
+  height: 360px;
+}
+
+.header-info {
+  width: 36%;
+  text-align: left;
+  margin: 6.5rem 1.31rem 4rem 2.8rem;
+}
+
+.header-info h2 {
+  margin: 0;
+}
+
+.header-info p {
+  margin: 0;
+  font-family: 'Open Sans',
+    sans-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  margin: 1.25rem 0;
+}
+
+.try_btn {
+  margin: 2rem 4rem;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Poppins',
+    sans-serif;
+  color: #00252E;
+  font-size: .6rem;
+  font-weight: 600;
+  padding: .75rem 2.8rem;
+  text-decoration: none;
+}
+
+.try_btn:hover {
+  background: #D6D6D6;
+  background-image: -webkit-linear-gradient(top, #D6D6D6, #f4f3f3);
+  background-image: -moz-linear-gradient(top, #D6D6D6, #f4f3f3);
+  background-image: -ms-linear-gradient(top, #D6D6D6, #f4f3f3);
+  background-image: -o-linear-gradient(top, #D6D6D6, #f4f3f3);
+  background-image: linear-gradient(to bottom, #D6D6D6, #f4f3f3);
+  text-decoration: none;
+}
+
+.get-started {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Poppins',
+    sans-serif;
+  color: #ffffff;
+  font-size: .6rem;
+  background: hsl(322, 100%, 66%);
+  padding: 0.5rem 2.5rem;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  background: hsl(322, 100%, 66%);
+  background-image: -webkit-linear-gradient(top, #CE409A, #e6a6d0);
+  background-image: -moz-linear-gradient(top, #CE409A, #e6a6d0);
+  background-image: -ms-linear-gradient(top, #CE409A, #e6a6d0);
+  background-image: -o-linear-gradient(top, #CE409A, #e6a6d0);
+  background-image: linear-gradient(to bottom, #CE409A, #e6a6d0);
+  text-decoration: none;
+}
