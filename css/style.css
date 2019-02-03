@@ -9,7 +9,8 @@ header {
   font-family: 'Poppins',
     sans-serif;
   background-image: url(../images/bg-hero-desktop.svg);
-  background-color: #EDFBFE;
+  background-color: hsl(193, 100%, 96%);
+  margin-bottom: 5rem;
 }
 
 h1,
@@ -29,36 +30,38 @@ main {
 
 .logo {
   float: left;
-  margin: 2rem 2.8rem;
+  margin: 2rem 0 1rem 2.8rem;
 }
 
 .illustration-mockup {
   margin: 1.5rem 2.8rem 2.8rem 1.31rem;
-  width: 49%;
-  height: 360px;
+  width: 45%;
+  height: 15rem;
 }
 
 .header-info {
-  width: 36%;
+  width: 40%;
   text-align: left;
-  margin: 6.5rem 1.31rem 4rem 2.8rem;
+  margin: 4rem 1.31rem 4rem 2.8rem;
 }
 
 .header-info h2 {
   margin: 0;
 }
 
-.header-info p {
-  margin: 0;
+p {
   font-family: 'Open Sans',
     sans-serif;
   font-weight: 400;
   font-size: .75rem;
+}
+
+.header-info p {
   margin: 1.25rem 0;
 }
 
 .try_btn {
-  margin: 2rem 4rem;
+  margin: 2rem 2.8rem 1rem 0;
   background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
   background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
@@ -108,4 +111,34 @@ main {
   background-image: -o-linear-gradient(top, #CE409A, #e6a6d0);
   background-image: linear-gradient(to bottom, #CE409A, #e6a6d0);
   text-decoration: none;
+}
+
+.discussion-row {
+  width: 90%;
+  text-align: left;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.75rem #ccc;
+}
+
+.grow-together-img,
+.your-users-img {
+  width: 30%;
+  margin: 2.5% 2.5% 2.5% 3.75%;
+}
+
+.flow-converse-img {
+  width: 30%;
+  margin: 2.5% 2.5% 2.5% 3.75%;
+}
+
+.discuss-text {
+  width: 40%;
+  margin: 10% 10% 10% 10%;
+}
+
+.discuss-text h3 {
+  font-family: 'Open Sans',
+    sans-serif;
+  font-weight: 700;
 }
