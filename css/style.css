@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Merriweather', serif;
-  width: 95%;
 }
 
 header {
@@ -23,6 +22,7 @@ h5 {
 
 main {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15rem;
 }
 
 .logo {
@@ -141,7 +141,83 @@ footer {
   color: white;
 }
 
-.chat-logo{
+.chat-logo {
   width: 1.5em;
   height: 1.5em;
+}
+
+.bottom-cta {
+  margin-bottom: 3rem;
+}
+
+.bottom-cta-button:link,
+.bottom-cta-button:visited,
+.bottom-cta-button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 10rem;
+  padding: 3% 10%;
+  letter-spacing: 0.05rem;
+}
+
+.cta-section {
+  position: relative;
+  margin-top: 7rem;
+}
+
+.cta-box {
+  text-align: center;
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.15);
+  padding: 2rem 2rem 3rem;
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+}
+
+.footer-section {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  padding: 10rem 6.25rem 3rem 6.25rem;
+  position: relative;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav-item:link,
+.footer-nav-item:hover,
+.footer-nav-item:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav-item {
+  margin-bottom: 2rem;
+}
+
+.footer-text {
+  margin-bottom: 2rem;
+}
+
+.social-link:link,
+.social-link:hover,
+.social-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.social-link {
+  margin-right: 1.5rem;
+}
+
+.copyright-text {
+  float: right;
 }
