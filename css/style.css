@@ -2,12 +2,11 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: 'Merriweather', serif;
-  width: 75%;
+  width: 95%;
 }
 
 header {
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url(../images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
   margin-bottom: 5rem;
@@ -18,14 +17,12 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
 main {
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -50,8 +47,7 @@ main {
 }
 
 p {
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: .75rem;
 }
@@ -71,8 +67,7 @@ p {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #00252E;
   font-size: .6rem;
   font-weight: 600;
@@ -94,8 +89,7 @@ p {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: .6rem;
   background: hsl(322, 100%, 66%);
@@ -138,7 +132,16 @@ p {
 }
 
 .discuss-text h3 {
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+
+.chat-logo{
+  width: 1.5em;
+  height: 1.5em;
 }
